@@ -1,0 +1,24 @@
+Filename: Feynman_Writing_Prompts.txt
+Author: Kyle Larson 10-14-20
+Purpose: to perform the work recommended in the LambdaSchool precoursework
+Feynman Writing Prompts - Write out explanations of the following concepts like you are explaining it to a 12 year old. Doing this will help you quickly discover any holes in your understanding. Ask your questions on Slack.
+
+for
+&&, ||, !
+
+for -
+In javascript, for is an operation that repeats the instructions between the brackets acording to the condition within the parenthases.
+An example of a for loop which prints to numbers 1 to 10 is the following: 
+for (let i = 0     ; i < 10                 ; i++          ) {
+    // | declare a var | conditional expression | increment var|
+        console.log(i);
+    }
+
+&& - 
+In javascript like other languages, the double ampresand operator is the logical "AND" operation also known as boolean addition. If both arguments on left and right of the operator are true then the entire statement is true, else the statement is false
+
+|| -
+In javascript like other languages, the double virtical bar operator is the logical "OR" operation. If one or the other or both of the arguments to the left and right of the bars is true, then the entire operation is true
+
+! - 
+In javascript like other languages, the '!' is the not operator turns a true argument false and false arguement to true
