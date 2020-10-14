@@ -1,0 +1,44 @@
+File Name: Feynman_Writing_Prompts.txt
+Author: Kyle Larson
+Purpose: from LambdaSchool 
+
+Feynman Writing Prompts - In a seprate text file that you create, write out explanations of the following concepts like you are explaining it to a 12 year old. Doing this will help you quickly discover any holes in your understanding. Ask your questions on Slack.
+
+Variables
+Strings
+Functions (arguments, return)
+if statements
+Boolean values (true, false)
+
+Context for a 12-year-old:
+On the most basic level computer's are sophisticated calculators. Javascript is a language carrying computation instructions. 
+Computers take inputs as numbers as from the user, perform mathematical operations and produce outputs according to instructions.
+
+Variables - 
+A variable is one form of input informataion is used to represent any of a set of data or datatypes,
+where at the high language level of javascript are typically Strings, Numbers, and Booleans.
+
+Strings - 
+A string as a javascript datatype is a block of text which often excludes whitespace characters space ' ', new line '
+' and tab '	'. 
+This file you are reading can be opened and read as a serries of strings or one long string. 
+In javascript, unlike many other languages, strings are differentiated from other code by single quotation marks. 
+
+Functions -
+A function is an operation taking any set of input(s) and producing one output. 
+In javascript, functions describe the process wherby input variables are turned into output data.  
+
+Arguments -
+In javascript, unlike languages such as C/C++ or assembly, functions take inputs
+referred to as arguments. Arguments go within the parenthases.
+
+Return - 
+In javascript, the only way information makes it back out of the function -other than to directly print via console.log()-
+is to return the data once the operations of the function had been performed. 
+
+If Statements -
+In javascript, operations can be limited by If Statements. If Statements perform one operation if the boolean value condition within the parenthases is true
+and perform another operation if the condition within the parenthatses is false. 
+
+Boolean Value -
+In javascript, a boolean value takes one of two possible values, true or false. A boolean is a variable type and is often produced by comparison operators <,<=, >,>=,===,and!===
