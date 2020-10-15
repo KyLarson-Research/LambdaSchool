@@ -61,11 +61,12 @@ function isPrime(num) {
   // hint: a prime number is only evenly divisible by itself and 1
   // hint2: you can solve this using a for loop
   // note: 0 and 1 are NOT considered prime numbers
-  for(let i=2; i<num; i++;){
-	  if(num%i===0) break;
-  }
-  if(i===num) return true;
-  else return false;
+	var i;
+	for(i=2; i<num; i++){
+		if(num%i===0){break;}
+	}
+	if(i===num){return true;}
+	else{return false;}
 }
 
 
