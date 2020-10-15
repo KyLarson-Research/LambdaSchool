@@ -36,29 +36,29 @@ function add(x, y) {
   // x and y are numbers
   // add x and y together and return the value
   // code here
-  const z = x+y;
-  return z;
+  var sum = x+y;
+  return sum;
 }
 
 function subtract(x, y) {
   // subtract y from x and return the value
   // code here
-  const z =x-y
+  var z = x - y;
   return z;
 }
 
 function multiply(x, y) {
   // multiply x by y and return the value
   // code here
-  const z= x*y
-  return z;
+  var dot = x*y;
+  return dot;
 }
 
 function divide(x, y) {
   // divide x by y and return the value
   // code here
-  const z=x/y;
-  return z;
+  var div = x/y;
+  return div;
 }
 
 function areEqual(x, y) {
@@ -96,8 +96,8 @@ function greaterThanFifty(num) {
 function getRemainder(x, y) {
   // return the remainder from dividing x by y
   // code here
-  z=x%y;
-  return z;
+  var rem = x%y;
+  return rem;
 }
 
 function isEven(num) {
@@ -120,35 +120,35 @@ function square(num) {
   // square num and return the new value
   // hint: NOT square root! // what? how?
   // code here
-  const squarenum =Math.pow(num, 2);
+  var squarenum =Math.pow(num, 2);
   return squarenum;
 }
 
 function cube(num) {
   // cube num and return the new value
   // code here // not cube root? Why am I confused?
-  const cubenum =Math.pow(num, 3);
+  var cubenum =Math.pow(num, 3);
   return cubenum;
 }
 
 function raiseToPower(num, exponent) {
   // raise num to whatever power is passed in as exponent
   // code here
-  const pownum = Math.pow(num, exponent);
+  var pownum = Math.pow(num, exponent);
   return pownum;
 }
 
 function roundNumber(num) {
   // round num and return it
   // code here
-  const roundnum = Math.round(num);
+  var roundnum = Math.round(num);
   return roundnum;
 }
 
 function roundUp(num) {
   // round num up and return it
   // code here
-  const roundup=Math.ceil(num);
+  var roundup=Math.ceil(num);
   return roundup;
 }
 
@@ -156,7 +156,7 @@ function addExclamationPoint(str) {
   // add an exclamation point to the end of str and return the new string
   // 'hello world' -> 'hello world!'
   // code here
-  const exclaimed = str.concat('!');
+  var exclaimed = str.concat('!');
   return exclaimed;
 }
 
@@ -164,7 +164,7 @@ function combineNames(firstName, lastName) {
   // return firstName and lastName combined as one string and separated by a space.
   // 'Lambda', 'School' -> 'Lambda School'
   // code here
-  const full = firstName.concat(' ', lastName);
+  var full = firstName.concat(' ', lastName);
   return full;
 }
 
@@ -172,7 +172,7 @@ function getGreeting(name) {
   // Take the name string and concatenate other strings onto it so it takes the following form:
   // 'Sam' -> 'Hello Sam!'
   // code here
-  const greeting = 'Hello';
+  var greeting = 'Hello';
   greeting = greeting.concat(' ', name, '!');
   return greeting;
 }
