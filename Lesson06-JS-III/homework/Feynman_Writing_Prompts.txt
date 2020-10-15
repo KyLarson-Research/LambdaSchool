@@ -1,0 +1,9 @@
+File Name: Feynman_Writing_Prompts.txt
+Author: Kyle Larson on 10-14-2020
+Purpose: answer the LambdaSchool precourse homework lesson 6
+
+Feynman Writing Prompts - Write out explanations of the following concepts like you are explaining it to a 12 year old. Doing this will help you quickly discover any holes in your understanding. Ask your questions on Slack.
+
+Arrays
+
+Arrays - variables that hold more than one value but all values are of the same datatype
