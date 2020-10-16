@@ -1,0 +1,23 @@
+File Name: Feynman_Writing_Prompts.txt
+Author: Kyle Larson 10-16-2020
+Purpose: in preparation for web development career through Lambdaschool precoursework:
+
+Instructions
+Feynman Writing Prompts - Write out explanations of the following concepts like you are explaining it to a 12 year old. Doing this will help you quickly discover any holes in your understanding. Ask your questions on Slack.
+
+prototype
+Constructors
+
+Prototype - 
+A prototype is a method that all objects of a particular class have access to. In the computer science world this is a form function level inheritance. 
+
+Constructors -
+Instead of defining an object from sctatch it can be instantiated from an existing object using a keyword, "new" by default. 
+Additionally, a constructor can be overloaded within the original (parent) object: (for example)
+
+class Rectangle {
+  constructor(height, width) {
+    this.height = height;
+    this.width = width;
+  }
+}
