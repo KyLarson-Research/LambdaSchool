@@ -1,0 +1,49 @@
+File Name: Fynman_Writing_Prompts.txt
+Author: Kyle Larson, 10-16-20
+Objective: Feynman Writing Prompts - Write out explanations of the following concepts like you are explaining it to a 12 year old. Doing this will help you quickly discover any holes in your understanding. Ask your questions on Slack.
+
+Objects
+Properties
+Methods
+for in loop
+Dot notation vs bracket notation
+
+Objects -
+An object is a multivalue variable consisting of pairs of "keys" and "values," and can contain functions.
+An Example is:
+const landlord = {
+	name: 'kyle.c.larson';
+	garagecode: 666;
+	racecardriver: false;
+	nothappywithtennantsthatdontpay function(){
+		console.log( 'Message from' + this.name + ', your rent is overdue and is acruing $35 every day late.' );
+	},
+	
+};
+
+Properties - 
+The key:value pair of an Oject is refered to a poperty. Properties may be removed using the delete keyword, but this is uncommon and frowned upon in some circles.
+
+Methods -
+A function within an object is called a method.
+
+for in loop -
+One may iterate through the properties in a variable or object using a special word which in the case of objects is key.
+
+An Example is: 
+for (let key in landlord){
+	console.log(key);
+	console.log(landlord[key]);
+{
+
+// name
+// 'kyle.c.larson'
+// garagecode
+// 666
+// racecardriver
+// false
+
+
+Dot notation vs bracket notation
+Object keys and methods may be accessed using dot notation: landlord.name; //kyle.c.larson
+Object keys and methods may also be accessed using bracket notation: landlord['name']; //kyle.c.larson
