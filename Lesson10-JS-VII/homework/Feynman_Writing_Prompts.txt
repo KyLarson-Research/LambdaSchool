@@ -1,0 +1,8 @@
+File Name: Feynman_Writing_Prompts.txt
+Author: Kyle Larson
+Purpose: To perform the Precourse material to prepare for LambdaSchool Admissions.
+Feynman Writing Prompts - Write out explanations of the following concepts like you are explaining it to a 12 year old. Doing this will help you quickly discover any holes in your understanding. Ask your questions on Slack.
+
+Closure
+
+In javascript, functions that define and/or call other functions are Higher Order Functions "HOFs". Closure is when an inner function has access to all of the variables within the outer function before consulting variables from the broader "global" scope.
