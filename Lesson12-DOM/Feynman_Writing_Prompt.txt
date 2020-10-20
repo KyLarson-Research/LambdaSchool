@@ -1,0 +1,19 @@
+File Name: Feynman_Writing_Prompt.txt
+Author: Kyle Larson 10-19-2020
+Purpose to complete the requirements as described by the lambdaschool precourse:
+
+
+    Feynman Writing Prompts - Write out explanations of the following concepts like you are explaining it to a 12 year old. Doing this will help you quickly discover any holes in your understanding. Ask your questions on Slack.
+        DOM
+        DOM element selectors
+        DOM events
+
+DOM -
+Document Object Model is the relationship between the front end and high level backend of a webpage. Everytime a browser loads a webpage, it converts the html into a model which interfaces with javascript for adding and removing elements, changine attributes of elements and changing styling of the elements.
+
+DOM element selectors - 
+Dogument objects such as tag-delimited 'divs' or other html may be selected using a selector. An example of a selector is the .getElementsByClassName function which takes the class as arguments (Example 'divCLass'), and .getElementByID function which takes the Id of the specific html tag. 
+
+DOM events - 
+When the user interracts with a webpage an event may be triggered. The event may be used to activate functions through the use of 'listeners' on of which may be instantiated through .addEventListener function. 
+
