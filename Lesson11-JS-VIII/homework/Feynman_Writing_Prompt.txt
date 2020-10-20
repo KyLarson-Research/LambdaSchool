@@ -1,0 +1,10 @@
+File Name: Feynman_Writing_Prompt.txt
+Author: Kyle Larson 10-19-2020
+Purpose: for the preparation to begin LambdaSchool by completing the prework:
+    Feynman Writing Prompts - Write out explanations of the following concepts like you are explaining it to a 12 year old. Doing this will help you quickly discover any holes in your understanding. Ask your questions on Slack.
+        Recursion
+
+
+Recursion - a method of looping through the same set of instructions a specific number of times by termination condition within a function that otherwise calls itself. 
+
+For loops and recursive function calls are interchangeable
